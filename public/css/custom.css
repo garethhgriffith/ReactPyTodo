@@ -1,0 +1,119 @@
+body {
+  background-color: #eee;
+}
+/* Customize container */
+
+.container {
+  max-width: 533px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.container {
+  padding-top: 100px
+}
+
+.todo-form {
+  padding: 10px 20px 20px 20px
+
+}
+
+.todo-panel {
+  padding: 10px 20px 20px 20px;
+}
+
+/* Main marketing message and sign up button */
+.todo-container {
+  /*padding: 20px;*/
+  background-color: #FFF;
+  border-radius: 5px;
+}
+
+.table>tbody>tr>td {
+  padding: 8px 0 8px 20px;
+}
+
+.todo-container h2 {
+  text-align: center;
+  padding: 50px 0 50px 0;
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+.todo-list {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+.todo-item {
+  margin-left: 20px;
+}
+
+.todo-footer-left {
+
+}
+
+/*.todo-footer-right {
+    position: absolute;
+    right: 0;
+}*/
+
+label {
+  font-weight: 200;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0; padding: 0;
+}
+li {
+  padding: 10px 20px;
+}
+li:nth-child(odd) {
+  background: #f4f7fa;
+}
+
+li:hover{
+  background-image: url("../images/dragHandle.png");
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}
+
+.check-shadow {
+  -moz-box-shadow:    0 0 1px 0 #ccc;
+  -webkit-box-shadow: 3px 3px 3px 3px #ccc;
+  box-shadow:         0 0 2px .5px #999;
+}
+
+input[type=checkbox] + label {
+  vertical-align: middle;
+  position: relative;
+  margin: 0 0 0 10px;
+  /*bottom: 1px;*/
+  /*background: #999;
+  height: 16px;*/
+  /*width: 16px;*/
+  /*display:inline-block;*/
+  /*padding: 0 0 0 0px;*/
+}
+input[type=checkbox]:checked + label {
+  /*background: #0080FF;
+  height: 16px;*/
+  /*width: 16px;*/
+  /*display:inline-block;
+  padding: 0 0 0 0px;*/
+  text-decoration: line-through;
+}
+
+.btn {
+  font-size: 13px;
+  padding: 10px 44px;
+}
+
+
+.form-inline .form-control {
+  width: 305px;
+  height: 40px;
+  margin-right: 10px;
+}
